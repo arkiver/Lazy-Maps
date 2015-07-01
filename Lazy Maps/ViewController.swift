@@ -28,8 +28,8 @@ CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
         
-        var latitude:CLLocationDegrees = 37.312926
-        var longitude:CLLocationDegrees = -121.975142
+        var latitude:CLLocationDegrees = locationManager.location.coordinate.latitude
+        var longitude:CLLocationDegrees = locationManager.location.coordinate.longitude
         
         var latDelta:CLLocationDegrees = 0.05
         var lonDelta:CLLocationDegrees = 0.05
@@ -45,10 +45,10 @@ CLLocationManagerDelegate {
         
         var annotation = MKPointAnnotation()
         annotation.coordinate = location
-        annotation.title = "lat: \(latitude)," +
-        "lon: \(longitude)"
+        annotation.title = "Prked hre: \(latitude)," +
+        "\(longitude)"
         map.addAnnotation(annotation)
-        // map.selectAnnotation(annotation, animated: true)
+        map.selectAnnotation(annotation, animated: true)
         
         // recognize long press
         
@@ -71,8 +71,8 @@ CLLocationManagerDelegate {
         var annotation = MKPointAnnotation()
         annotation.coordinate = newCoordinate
         
-        annotation.title = "latitude: /(newCoordinate.latitude)," +
-        "longitude: \(newCoordinate.longitude)"
+        annotation.title = "lat: /(newCoordinate.latitude)," +
+        "lon: \(newCoordinate.longitude)"
 
         map.addAnnotation(annotation)
         
@@ -95,8 +95,8 @@ CLLocationManagerDelegate {
             var location:CLLocationCoordinate2D =
             CLLocationCoordinate2DMake(latitude, longitude)
             
-            var region:MKCoordinateRegion = MKCoordinateRegionMake(location, span)
-            self.map.setRegion(region, animated: true)
+//            var region:MKCoordinateRegion = MKCoordinateRegionMake(location, span)
+  //          self.map.setRegion(region, animated: true)
 
             // annotate new found location
             var annotation = MKPointAnnotation()
