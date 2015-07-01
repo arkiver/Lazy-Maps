@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAAD11FA1B4472A700EB4AB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD11F91B4472A700EB4AB7 /* AppDelegate.swift */; };
+		BAAD11FC1B4472A700EB4AB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD11FB1B4472A700EB4AB7 /* ViewController.swift */; };
+		BAAD11FF1B4472A800EB4AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAD11FD1B4472A800EB4AB7 /* Main.storyboard */; };
+		BAAD12011B4472A800EB4AB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAD12001B4472A800EB4AB7 /* Images.xcassets */; };
+		BAAD12041B4472A800EB4AB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAAD12021B4472A800EB4AB7 /* LaunchScreen.xib */; };
+		BAAD12101B4472A800EB4AB7 /* Lazy_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD120F1B4472A800EB4AB7 /* Lazy_MapsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAAD120A1B4472A800EB4AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAD11EC1B4472A700EB4AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAD11F31B4472A700EB4AB7;
+			remoteInfo = "Lazy Maps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAAD11F41B4472A700EB4AB7 /* Lazy Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lazy Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAD11F81B4472A700EB4AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAD11F91B4472A700EB4AB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAAD11FB1B4472A700EB4AB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAAD11FE1B4472A800EB4AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAAD12001B4472A800EB4AB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAAD12031B4472A800EB4AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BAAD12091B4472A800EB4AB7 /* Lazy MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazy MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAD120E1B4472A800EB4AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAD120F1B4472A800EB4AB7 /* Lazy_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_MapsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAD11F11B4472A700EB4AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAD12061B4472A800EB4AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAD11EB1B4472A700EB4AB7 = {
+			isa = PBXGroup;
+			children = (
+				BAAD11F61B4472A700EB4AB7 /* Lazy Maps */,
+				BAAD120C1B4472A800EB4AB7 /* Lazy MapsTests */,
+				BAAD11F51B4472A700EB4AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAD11F51B4472A700EB4AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD11F41B4472A700EB4AB7 /* Lazy Maps.app */,
+				BAAD12091B4472A800EB4AB7 /* Lazy MapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAD11F61B4472A700EB4AB7 /* Lazy Maps */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD11F91B4472A700EB4AB7 /* AppDelegate.swift */,
+				BAAD11FB1B4472A700EB4AB7 /* ViewController.swift */,
+				BAAD11FD1B4472A800EB4AB7 /* Main.storyboard */,
+				BAAD12001B4472A800EB4AB7 /* Images.xcassets */,
+				BAAD12021B4472A800EB4AB7 /* LaunchScreen.xib */,
+				BAAD11F71B4472A700EB4AB7 /* Supporting Files */,
+			);
+			path = "Lazy Maps";
+			sourceTree = "<group>";
+		};
+		BAAD11F71B4472A700EB4AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD11F81B4472A700EB4AB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAAD120C1B4472A800EB4AB7 /* Lazy MapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD120F1B4472A800EB4AB7 /* Lazy_MapsTests.swift */,
+				BAAD120D1B4472A800EB4AB7 /* Supporting Files */,
+			);
+			path = "Lazy MapsTests";
+			sourceTree = "<group>";
+		};
+		BAAD120D1B4472A800EB4AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD120E1B4472A800EB4AB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAD11F31B4472A700EB4AB7 /* Lazy Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAD12131B4472A800EB4AB7 /* Build configuration list for PBXNativeTarget "Lazy Maps" */;
+			buildPhases = (
+				BAAD11F01B4472A700EB4AB7 /* Sources */,
+				BAAD11F11B4472A700EB4AB7 /* Frameworks */,
+				BAAD11F21B4472A700EB4AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lazy Maps";
+			productName = "Lazy Maps";
+			productReference = BAAD11F41B4472A700EB4AB7 /* Lazy Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAAD12081B4472A800EB4AB7 /* Lazy MapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAD12161B4472A800EB4AB7 /* Build configuration list for PBXNativeTarget "Lazy MapsTests" */;
+			buildPhases = (
+				BAAD12051B4472A800EB4AB7 /* Sources */,
+				BAAD12061B4472A800EB4AB7 /* Frameworks */,
+				BAAD12071B4472A800EB4AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAD120B1B4472A800EB4AB7 /* PBXTargetDependency */,
+			);
+			name = "Lazy MapsTests";
+			productName = "Lazy MapsTests";
+			productReference = BAAD12091B4472A800EB4AB7 /* Lazy MapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAD11EC1B4472A700EB4AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Awesome Apps";
+				TargetAttributes = {
+					BAAD11F31B4472A700EB4AB7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BAAD12081B4472A800EB4AB7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BAAD11F31B4472A700EB4AB7;
+					};
+				};
+			};
+			buildConfigurationList = BAAD11EF1B4472A700EB4AB7 /* Build configuration list for PBXProject "Lazy Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAAD11EB1B4472A700EB4AB7;
+			productRefGroup = BAAD11F51B4472A700EB4AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAD11F31B4472A700EB4AB7 /* Lazy Maps */,
+				BAAD12081B4472A800EB4AB7 /* Lazy MapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAD11F21B4472A700EB4AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD11FF1B4472A800EB4AB7 /* Main.storyboard in Resources */,
+				BAAD12041B4472A800EB4AB7 /* LaunchScreen.xib in Resources */,
+				BAAD12011B4472A800EB4AB7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAD12071B4472A800EB4AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAD11F01B4472A700EB4AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD11FC1B4472A700EB4AB7 /* ViewController.swift in Sources */,
+				BAAD11FA1B4472A700EB4AB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAD12051B4472A800EB4AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD12101B4472A800EB4AB7 /* Lazy_MapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAAD120B1B4472A800EB4AB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAD11F31B4472A700EB4AB7 /* Lazy Maps */;
+			targetProxy = BAAD120A1B4472A800EB4AB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAAD11FD1B4472A800EB4AB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAD11FE1B4472A800EB4AB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAAD12021B4472A800EB4AB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAD12031B4472A800EB4AB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAD12111B4472A800EB4AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAAD12121B4472A800EB4AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAD12141B4472A800EB4AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lazy Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAAD12151B4472A800EB4AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lazy Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAAD12171B4472A800EB4AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lazy MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Maps.app/Lazy Maps";
+			};
+			name = Debug;
+		};
+		BAAD12181B4472A800EB4AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lazy MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Maps.app/Lazy Maps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAD11EF1B4472A700EB4AB7 /* Build configuration list for PBXProject "Lazy Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAD12111B4472A800EB4AB7 /* Debug */,
+				BAAD12121B4472A800EB4AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAD12131B4472A800EB4AB7 /* Build configuration list for PBXNativeTarget "Lazy Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAD12141B4472A800EB4AB7 /* Debug */,
+				BAAD12151B4472A800EB4AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAAD12161B4472A800EB4AB7 /* Build configuration list for PBXNativeTarget "Lazy MapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAD12171B4472A800EB4AB7 /* Debug */,
+				BAAD12181B4472A800EB4AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAD11EC1B4472A700EB4AB7 /* Project object */;
+}
