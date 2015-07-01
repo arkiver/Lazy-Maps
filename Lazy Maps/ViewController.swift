@@ -102,8 +102,8 @@ CLLocationManagerDelegate {
             var annotation = MKPointAnnotation()
             annotation.coordinate = location
             
-            annotation.title = "latitude: \(latitude)," +
-            "longitude: \(longitude)"
+            annotation.title = "lat: \(latitude)," +
+            "lon: \(longitude)"
             map.addAnnotation(annotation)
     }
     
