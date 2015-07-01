@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import AudioToolbox
 
 // 37.312926, -121.975142
 
@@ -39,8 +40,30 @@ class ViewController: UIViewController, MKMapViewDelegate {
         map.addAnnotation(annotation)
         map.selectAnnotation(annotation, animated: true)
         
+        // recognize long press
+        
+        var uilpgr = UILongPressGestureRecognizer(target: self, action: "action:")
+        uilpgr.minimumPressDuration = 1.5
+        map.addGestureRecognizer(uilpgr)
     }
+    
+    func action(gestureRecognizer:UIGestureRecognizer){
 
+        // vibrate device when long pressed
+        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        
+        var touchPoint = gestureRecognizer.locationInView(self.map)
+        
+        var newCoordinate:CLLocationCoordinate2D = map.convertPoint(touchPoint, toCoordinateFromView: self.map)
+        
+        var annotation = MKPointAnnotation()
+        annotation.coordinate = newCoordinate
+        annotation.title = "New place"
+        annotation.subtitle = "You clicked here"
+        map.addAnnotation(annotation)
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
